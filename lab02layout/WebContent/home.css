@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+body
+{   
+  width: 80%;  
+  margin: 0 auto;
+}
+/* - same as above
+{
+  width: 80%;  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+#maincontent 
+{  
+  width: 80%;
+  float: right;  
+}
+
+#navigation 
+{  
+  width: 18%;   
+  float: left;  
+}
+
+#header 
+{  
+  width: 100%;   
+}
+
+#footer 
+{  
+  width: 100%;
+  clear: both;
+}
+
+* 
+{
+  //border: dashed thin;
+}
+
+#primary 
+{  
+  width: 68%;  
+  float: left;  
+}
+
+#secondary 
+{  
+  width: 30%;  
+  float: right;
+}
+
